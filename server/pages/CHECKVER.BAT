@@ -17,3 +17,4 @@ echo GAWN2600 Insider Preview 22504.1000 (rs_prerelease)
 echo:
 echo Addressed the issue where Segoe UI Variable font is not displaying correctly,
 echo due to the file global.css were displaying Segoe UI Instead of Segoe UI Variable.
+pause
