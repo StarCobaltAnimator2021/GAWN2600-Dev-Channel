@@ -5,7 +5,7 @@ this css has the general header/footer layout stuff
 @import url("./modern-normalize.css");
 
 :root {
-	--primary: #8300FF;
+	--primary: #FFC73C;
 	--transition: .15s ease;
 }
 
@@ -13,9 +13,9 @@ this css has the general header/footer layout stuff
 general
 **/
 html, body {
-	background: #C990FF;
-	color: #505969;
-	font: 13px/1.5 'Segoe UI Variable';
+	background: #ECE9D8;
+	color: ##4F80F6;
+	font: 13px/1.5 "Segoe UI Variable";
 	width: 100%;
 	height: 100%;
 }
@@ -40,7 +40,7 @@ header
 **/
 header {
 	/* style */
-	background: #A371FF;
+	background: #0055E5;
 	color: #4479F5;
 	text-align: center;
 	/* layout */
@@ -51,44 +51,45 @@ header {
 	justify-content: space-between;
 	flex-shrink: 0;
 }
+html.dark header {
+	background: #1a1a1a;
+}
 /* makes the header a set height when the window is 887px wide */
 @media (min-width: 735px) {
 	header {
 		padding-bottom: auto;
-		height: 44px;
+		height: 50px;
 	}
 }
 #logo {
-	margin-top: 4px;
+	margin-top: 7px;
 	height: 35px;
 }
 /* buttons */
-.button_big,
-.button_small {
+.btn {
 	/* style */
+	background: #2166ED;
+	border: none;
 	font-size: 14px;
+	font-weight: bold;
 	text-decoration: none;
 	color: #fff;
 	border-radius: 4px;
-	transition: var(--transition);
 	/* layout */
 	display: inline-block;
-	padding: 5px 10px;
-	margin: 6px 5px;
+	padding: 5.5px 10px;
+	margin: 9px 5px;
 }
-.button_big:hover,
-.button_small:hover {
+.btn:hover {
+	background: #0847CA
 	cursor: pointer;
 }
-/* small buttons */
-.button_small       { background: #CA2DFF }
-.button_small:hover { background: #A72DFF; color: var(--primary) }
-/* big buttons */
-.button_big {
+/* primary color buttons */
+.btn.btn_primary {
 	background: var(--primary);
 	width: 160px;
 }
-.button_big:hover {
+.btn.btn_primary:hover {
 	text-decoration: underline;
 }
 
@@ -98,8 +99,8 @@ header dropdowns
 **/
 /* change button margin/padding to fit dropdown */
 .dropdown_contain { padding: 0; margin: 6px 5px; }
-.dropdown_button { margin: 0; padding: 5px 10px; }
-.upload_button { margin: 0; padding: 5px 25px; }
+.dropdown_button { margin: 0; padding: 5.5px 10px; }
+.upload_button { margin: 0; padding: 5.5px 25px; }
 /* make dropdown appear on hover */
 .dropdown_contain:hover>nav {
 	display: block;
@@ -108,7 +109,7 @@ header dropdowns
 /* the dropdown itself */
 .dropdown_menu {
 	/* style */
-	background-color: #C3A3FF;
+	background-color: #0367F3;
 	border-radius: 4px;
 	/* layout */
 	width: 100%;
@@ -154,50 +155,68 @@ form.hide { display: none }
 /**
 tabs
 **/
-.tabs_contain {
-    border-radius: 6px;
-    display: flex;
-    margin: auto auto;
+.tab_nav_container {
+	margin: auto;
 }
-.tab_buttons {
-	padding: 8px 0;
-    display: flex;
-    flex-direction: column;
-    min-width: 180px;
+.tab_navigation {
+	display: flex;
+    margin: 0 auto;
 }
-.tabs_contain h1 {
-    font-size: 20px;
-    margin: 0 0 10px;
+.tab_nav_container .tab_navigation {
+	border-bottom: 10px solid #fff;
+	box-shadow: 0 4px 3px -2px #0002;
 }
-.tab_buttons a {
-	/* style */
-	background: #CA2DFF;
-	color: #000;
-	text-decoration: none;
-	border-radius: 5px;
-	transition: var(--transition);
-	/* layout */
-	padding: 8px 18px;
-	margin: 2px 0;
+html.dark .tab_nav_container .tab_navigation {
+	border-color: #282828;
 }
-.tab_buttons a:hover { background: #A72DFF; color: var(--primary) }
-html body .tab_buttons a.selected { background: var(--primary); color: #0000FF }
-html.dark .tab_buttons a {
-	background: #353535;
-	color: #fff;
+.tab {
+	background: #ECE9D8;
+    border-right: 1px solid #cfcfcf;
+    box-shadow:
+		inset 0 1px #ECE9D8,
+		inset 0 -1px #FFFFFF,
+		inset 0 -6px 6px -5px #0002;
+    color: #000000;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+	width: 100%;
 }
-html.dark .tab_buttons a:hover:not(.selected) { background: #2a2a2a; color: var(--primary) }
-.tab { padding: 0 20px; display: none }
-#shortthemelist:hover,
-#darkmode:hover {
-	cursor: pointer;
+.tab:last-of-type {
+	border: none;
+}
+.tab.selected {
+    background: #fff;
+    color: #FFFF00;
+    box-shadow: 0 -5px #FFFF00;
+}
+html.dark .tab:not(.selected) {
+	background: #242424;
+	border-color: #2a2a2a;
+	box-shadow: inset 0 1px #2a2a2a, inset 0 -1px #222, inset 0 -6px 6px -5px #0002;
+	color: #ddd;
+}
+html.dark .tab.selected {
+	background: #282828;
+	border-color: #222;
+}
+.tab:hover,
+html.dark .tab:hover {
+	color: #FFFF00;
+}
+/* pages */
+.tab_page {
+	display: none;
 }
 
 /**
 footer
 **/
 footer {
-	background: #A371FF;
+	background: #ff0066;
 	margin-top: auto; /* footer at the foot */
 	display: flex;
 	justify-content: space-between;
@@ -206,7 +225,7 @@ footer {
 footer nav { margin:5px 10px}
 /* links */
 footer a {
-	color: #FFF;
+	color: #ffff00;
 	text-decoration:none;
 	margin: 0 10px;
 	font-weight: bold;
@@ -215,11 +234,28 @@ footer a:hover {
 	text-decoration: underline;
 }
 
+@media(min-width: 790px) {
+	.tab_nav_container {
+		width: 750px;
+	}
+}
+@media(min-width: 1012px) {
+	.tab_nav_container {
+		width: 970px;
+	}
+}
+@media(min-width: 1210px) {
+	.tab_nav_container {
+		width: 1170px;
+	}
+}
+
+
 /**
 font importing
 **/
 @font-face {
-	font-family: "Segoe UI Variable';
+	font-family: 'Segoe UI Variable';
 	font-weight: 100;
 	src: url('.../fonts/SegoeUI-Variable-Light.woff') format('woff');
 }

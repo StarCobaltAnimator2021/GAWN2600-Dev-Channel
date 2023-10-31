@@ -1,4 +1,6 @@
+const importer = $("#importer");
 const previewer = $("#previewer");
+const cc = $("#cc_window");
 const studio = $("#obj");
 const body = $("body");
 
@@ -27,6 +29,7 @@ function showImporter() {
 		case false:
 		default: {
 			importerVisible = true;
+			importer.height(window.innerHeight);
 			importer.show();
 			if (!importer.data("importer"))
 				importer.data("importer", new AssetImporter(importer));
@@ -38,6 +41,21 @@ function hideImporter() {
 	importerVisible = false;
 	importer.hide();
 }
+
+function showCCWindow(themeId) {
+	hideImporter();
+	cc.find("iframe").attr("src", "/cc_browser?themeId="+themeId+"&external=true");
+	cc.css("display", "block");
+	studio.css("height", "1px");
+	body.css("background-color", "#262d3f");
+}
+function hideCCWindow() {
+	cc.css("display", "none");
+	cc.find("iframe").attr("src", "");
+	studio.css("height", "");
+	body.css("background-color", "");
+}
+
 function initPreviewPlayer(dataXmlStr, startFrame, containsChapter, themeList) {
 	movieDataXmlStr = dataXmlStr;
 	filmXmlStr = dataXmlStr.split("<filmxml>")[1].split("</filmxml>")[0];
@@ -62,6 +80,7 @@ function initPreviewPlayer(dataXmlStr, startFrame, containsChapter, themeList) {
 function retrievePreviewPlayerData() { return movieDataXmlStr }
 function hidePreviewer() {
 	previewer.css("display", "none");
+	previewer.find("object param[name='flashvars']").attr("value", "");
 	studio.css("height", "");
 	body.css("background-color", "");
 }

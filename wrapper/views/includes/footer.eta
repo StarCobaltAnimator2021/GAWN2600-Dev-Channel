@@ -3,7 +3,7 @@
 		<a href="javascript:;" onclick="checkForUpdates()">v<%= it.env.WRAPPER_VER %></a>
 		<a href="/settings">Settings</a>
 		<a href="https://www.youtube.com/@GoAniWayneNathaniel2600">Our YouTube Channel</a>
-		<a href="https://sites.google.com/view/goaniwaynenathaniel2600/home">GoAniWayneNathaniel2600 Website </a> </nav>
+		<a href="https://sites.google.com/view/goaniwaynenathaniel2600/home">GoAniWayneNathaniel2600 Website </a>
 	</nav>
 
 	<nav id="foot-right"></nav>

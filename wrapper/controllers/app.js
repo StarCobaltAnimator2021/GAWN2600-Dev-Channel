@@ -1,30 +1,24 @@
-const httpz = require("@octanuary/httpz")
-let discord;
-require("../../utils/discord")
-	.then((f) => discord = f);
+const Char = require("../models/char");
 const database = require("../../data/database"), DB = new database(true);
+const httpz = require("@octanuary/httpz");
 const { SWF_URL, STORE_URL, CLIENT_URL } = process.env;
 const group = new httpz.Group();
 
 // video list
 group.route("*", "/", (req, res) => {
-	discord("Video List");
 	res.render("list", {});
 });
 // settings
 group.route("*", "/settings", (req, res) => {
-	discord("Settings");
 	res.render("settings", {});
 });
 // themelist page
 group.route("GET", "/create", (req, res) => {
-	discord("Choosing a Theme");
 	const { TRUNCATED_THEMELIST } = DB.select();
 	res.render("create", { truncatedThemelist: TRUNCATED_THEMELIST });
 });
 // flash pages
 group.route("GET", "/cc", async (req, res) => {
-	discord("Character Creator");
 	let flashvars = {
 		appCode: "go",
 		ctc: "go",
@@ -45,6 +39,11 @@ group.route("GET", "/cc", async (req, res) => {
 		clientThemePath: CLIENT_URL + "/<client_theme>"
 	};
 	Object.assign(flashvars, req.query);
+	if (flashvars.original_asset_id) {
+		const char = Char.load(flashvars.original_asset_id);
+		flashvars.themeId = Char.getTheme(char);
+		delete flashvars.bs;
+	}
 	res.render("app/char", {
 		title: "Character Creator",
 		attrs: {
@@ -60,11 +59,11 @@ group.route("GET", "/cc", async (req, res) => {
 			allowScriptAccess: "always",
 			movie: SWF_URL + "/cc.swf",
 		},
+		isExternal: req.query.external || false,
 		object: toObjectString
 	});
 });
 group.route("GET", "/cc_browser", async (req, res) => {
-	discord("Character Browser");
 	let flashvars = {
 		appCode: "go",
 		ctc: "go",
@@ -98,11 +97,11 @@ group.route("GET", "/cc_browser", async (req, res) => {
 			allowScriptAccess: "always",
 			movie: SWF_URL + "/cc.swf",
 		},
+		isExternal: req.query.external || false,
 		object: toObjectString
 	});
 });
 group.route("GET", "/go_full", async (req, res) => {
-	discord("Video Maker");
 	const { IS_WIDE } = DB.select();
 	let flashvars = {
 		appCode: "go",
@@ -119,7 +118,7 @@ group.route("GET", "/go_full", async (req, res) => {
 		tray: "custom",
 		tlang: "en_US",
 		ut: 60,
-		apiserver: "http://localhost:4343/",
+		apiserver: `http://localhost:${process.env.SERVER_PORT}/`,
 		storePath: STORE_URL + "/<store>",
 		clientThemePath: CLIENT_URL + "/<client_theme>",
 	};
@@ -137,22 +136,50 @@ group.route("GET", "/go_full", async (req, res) => {
 	});
 });
 group.route("GET", "/player", async (req, res) => {
-	discord("Video Player");
 	const { IS_WIDE, DEFAULT_WATERMARK } = DB.select();
 	let flashvars = {
 		autostart: 1,
 		isWide: IS_WIDE,
-		isWixPaid: DEFAULT_WATERMARK == "wix" ? 0 : 1,
 		ut: 60,
 		apiserver: "/",
 		storePath: STORE_URL + "/<store>",
 		clientThemePath: CLIENT_URL + "/<client_theme>",
 	};
+	if (DEFAULT_WATERMARK == "wix") {
+		flashvars.isWixPaid = 1;
+	}
 	Object.assign(flashvars, req.query);
 	res.render("app/player", {
 		attrs: {
 			data: SWF_URL + "/player.swf",
 			type: "application/x-shockwave-flash", width: "100%", height: "100%",
+		},
+		params: {
+			flashvars,
+			allowFullScreen: "true",
+			allowScriptAccess: "always",
+		},
+		object: toObjectString
+	});
+});
+group.route("GET", "/exporter", async (req, res) => {
+	const { IS_WIDE, DEFAULT_WATERMARK } = DB.select();
+	let flashvars = {
+		autostart: 0,
+		isWide: IS_WIDE,
+		ut: 60,
+		apiserver: "/",
+		storePath: STORE_URL + "/<store>",
+		clientThemePath: CLIENT_URL + "/<client_theme>",
+	};
+	if (DEFAULT_WATERMARK == "wix") {
+		flashvars.isWixPaid = 1;
+	}
+	Object.assign(flashvars, req.query);
+	res.render("app/exporter", {
+		attrs: {
+			data: SWF_URL + "/exporter.swf",
+			type: "application/x-shockwave-flash",
 		},
 		params: {
 			flashvars,
