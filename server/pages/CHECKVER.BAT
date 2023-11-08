@@ -25,8 +25,11 @@ echo Custom Assets.
 echo:
 echo 2. updated the UI to reflect Lily Sanderson Easter Egg
 echo:
-echo Easter Eggs in This build:
+echo Bugs in This build:
+echo If you're trying to save videos in this build starting from build 22523.1000,
+echo An unhandled promise rejection error will occur.
 echo:
+echo Easter Eggs in This build:
 echo The display version on footer will display "RS_PR3AESLY_PURPL3" instead of "rs_prerelease"
 echo to indicate that Lily Sanderson is Mysterious and Confident, decoding this results in her
 echo Favorite color being shown. however this does not display in the Start Panel Window and
