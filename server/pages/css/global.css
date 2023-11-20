@@ -5,7 +5,7 @@ this css has the general header/footer layout stuff
 @import url("./modern-normalize.css");
 
 :root {
-	--primary: #9D00FF;
+	--primary: #FFC73C;
 	--transition: .15s ease;
 }
 
@@ -13,8 +13,8 @@ this css has the general header/footer layout stuff
 general
 **/
 html, body {
-	background: #B200FF;
-	color: #A885FF;
+	background: #ECE9D8;
+	color: ##4F80F6;
 	font: 13px/1.5 "Segoe UI Variable";
 	width: 100%;
 	height: 100%;
@@ -40,8 +40,8 @@ header
 **/
 header {
 	/* style */
-	background: #7B00FF;
-	color: #D78DFF;
+	background: #0055E5;
+	color: #4479F5;
 	text-align: center;
 	/* layout */
 	padding-bottom: 13px;
@@ -68,7 +68,7 @@ html.dark header {
 /* buttons */
 .btn {
 	/* style */
-	background: #C552FF;
+	background: #2166ED;
 	border: none;
 	font-size: 14px;
 	font-weight: bold;
@@ -81,7 +81,7 @@ html.dark header {
 	margin: 9px 5px;
 }
 .btn:hover {
-	background: #5808CA
+	background: #0847CA
 	cursor: pointer;
 }
 /* primary color buttons */
@@ -109,7 +109,7 @@ header dropdowns
 /* the dropdown itself */
 .dropdown_menu {
 	/* style */
-	background-color: #AE47DA;
+	background-color: #0367F3;
 	border-radius: 4px;
 	/* layout */
 	width: 100%;
@@ -170,13 +170,13 @@ html.dark .tab_nav_container .tab_navigation {
 	border-color: #282828;
 }
 .tab {
-	background: #B200FF;
+	background: #ECE9D8;
     border-right: 1px solid #cfcfcf;
     box-shadow:
-		inset 0 1px #B200FF,
+		inset 0 1px #ECE9D8,
 		inset 0 -1px #FFFFFF,
 		inset 0 -6px 6px -5px #0002;
-    color: #FFFFFF;
+    color: #000000;
     padding: 7px;
     text-align: center;
     text-decoration: none;
@@ -190,8 +190,8 @@ html.dark .tab_nav_container .tab_navigation {
 }
 .tab.selected {
     background: #fff;
-    color: #FF00FF;
-    box-shadow: 0 -5px #FF00FF;
+    color: #FFFF00;
+    box-shadow: 0 -5px #FFFF00;
 }
 html.dark .tab:not(.selected) {
 	background: #242424;
@@ -205,7 +205,7 @@ html.dark .tab.selected {
 }
 .tab:hover,
 html.dark .tab:hover {
-	color: #B200FF;
+	color: #FFFF00;
 }
 /* pages */
 .tab_page {
@@ -216,7 +216,7 @@ html.dark .tab:hover {
 footer
 **/
 footer {
-	background: #b200ff;
+	background: #ff0066;
 	margin-top: auto; /* footer at the foot */
 	display: flex;
 	justify-content: space-between;
@@ -225,7 +225,7 @@ footer {
 footer nav { margin:5px 10px}
 /* links */
 footer a {
-	color: #ffffff;
+	color: #ffff00;
 	text-decoration:none;
 	margin: 0 10px;
 	font-weight: bold;
