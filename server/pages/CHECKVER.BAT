@@ -2,7 +2,7 @@
 title GoAniWayneNathaniel2600 Version Checker
 echo GoAniWayneNathaniel2600 Version Checker
 echo Version 10.0
-echo Build 22533.1010.7.9.23.rs_prerelease_flt.231114-1548
+echo Build 22533.1012.7.9.23.rs_prerelease_flt.231118-1249
 echo Service Pack : 6
 echo Evaluation copy. Expires 9/15/2024
 echo:
