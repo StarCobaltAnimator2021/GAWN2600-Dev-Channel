@@ -20,4 +20,12 @@ echo:
 echo What's new in this version
 echo GAWN2600 Insider Preview 22538.1000 (rs_prerelease)
 echo:
+echo 1. More Face Decorations
+echo:
+echo 2. JD & Matthew has been integrated
+echo:
+echo 3. New Exclusive Actions & Poses
+echo:
+echo 4. Updated Segoe UI Variable font to more complex typo rather than Segoe UI-Like font.
+echo:
 pause
