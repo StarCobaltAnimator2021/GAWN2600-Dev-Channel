@@ -1,6 +1,20 @@
 {
 	"assets": [
 		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Matthew Parker",
+			"themeId": "family",
+			"id": "ba02d39f"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "JD Parker",
+			"themeId": "family",
+			"id": "82b93dca"
+		},
+		{
 			"type": "prop",
 			"subtype": "0",
 			"title": "wp7932324-grunge-ps4-aesthetic-wallpapers.jpg",
