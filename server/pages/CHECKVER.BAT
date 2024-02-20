@@ -2,7 +2,7 @@
 title GoAniWayneNathaniel2600 Version Checker
 echo GoAniWayneNathaniel2600 Version Checker
 echo Version 10.0
-echo Build 22538.1000.7.9.23.rs_prerelease.231121-1251
+echo Build 22543.1000.7.9.23.rs_prerelease.231231-1524
 echo Service Pack : 6
 echo Evaluation copy. Expires 9/15/2024
 echo:
@@ -18,14 +18,12 @@ pause
 cls
 echo:
 echo What's new in this version
-echo GAWN2600 Insider Preview 22538.1000 (rs_prerelease)
+echo GAWN2600 Insider Preview 22543.1000 (rs_prerelease)
 echo:
-echo 1. More Face Decorations
+echo 1. More Newer Custom Assets
 echo:
-echo 2. JD & Matthew has been integrated
+echo 2. SapphireMaddie is now RubyMaddie
 echo:
-echo 3. New Exclusive Actions & Poses
-echo:
-echo 4. Updated Segoe UI Variable font to more complex typo rather than Segoe UI-Like font.
+echo 3. New Character: RaffinaCounter
 echo:
 pause
