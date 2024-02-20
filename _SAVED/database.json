@@ -350,16 +350,7 @@
 			"published": "0"
 		}
 	],
-	"movies": [
-		{
-			"id": "e34421ca",
-			"duration": "00:02",
-			"date": "2024-02-20T17:13:29.463Z",
-			"title": "abc",
-			"sceneCount": 1,
-			"watermark": "0vTLbQy9hG7k"
-		}
-	],
+	"movies": [],
 	"folders": [],
 	"watermarks": []
 }
