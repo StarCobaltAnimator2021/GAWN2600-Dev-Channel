@@ -126,13 +126,6 @@
 			"id": "29e6f8a.mp3"
 		},
 		{
-			"type": "char",
-			"subtype": 0,
-			"title": "Carson",
-			"themeId": "family",
-			"id": "6cd9a23"
-		},
-		{
 			"type": "watermark",
 			"subtype": "0",
 			"title": "ldm-removebg-preview.png",
@@ -178,19 +171,6 @@
 			"title": "LOGIN.jpg",
 			"ptype": "placeable",
 			"id": "7f5ef9c.jpg"
-		},
-		{
-			"type": "char",
-			"subtype": 0,
-			"title": "JPB The Filipino Vyonder YT 2K10",
-			"themeId": "family",
-			"id": "c0f996e",
-			"share": {
-				"type": "none"
-			},
-			"assetId": "c0f996e",
-			"tags": "",
-			"published": "0"
 		},
 		{
 			"type": "bg",
