@@ -1,6 +1,6 @@
 @echo off
 echo:
 echo GAWN2600 Pro
-echo Evaluation copy. Build 22572.zn_release.240227-0732
+echo Evaluation copy. Build 22579.zn_release.240301-1222
 echo:
 npm start

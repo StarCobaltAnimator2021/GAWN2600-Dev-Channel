@@ -3,7 +3,7 @@ title GoAniWayneNathaniel2600 Version Checker
 echo:
 echo GoAniWayneNathaniel2600 Version Checker
 echo Version 10.0
-echo Build 22572.1.zn_release.240227-0732
+echo Build 22579.1.zn_release.240301-1222
 echo Service Pack : 6
 echo Evaluation copy. Expires 9/15/2024
 echo:
@@ -26,15 +26,16 @@ pause
 cls
 echo:
 echo What's new in this version
-echo GAWN2600 Insider Preview 22572.1 (zn_release)
+echo GAWN2600 Insider Preview 22579.1 (zn_release)
 echo:
-echo 1. Install.bat received an Major Overhaul, now dubbed as "GoAniWayneNathaniel2600
-echo Preinstallation Environment", and replaces Generic Install.bat
+echo 1. New Character: Zeus Kayden Nathaniel
 echo:
-echo 2. RaffinaCounter's September 2019 avatar, which found in Included "Downloaded Assets" Folder.
-echo Has been actively used in this build.
+echo 2. The Setting button at the Header, Introduced in build 22567.1
+echo Has been rolled out to subset of users
 echo:
-echo 3. Addressed an issue where Characters were missing starting since build 22538.1000
+echo 3. Extra Assets: New Hairstyle, Mermaid Tail & Seashell bra, Added in build 22557.1
+echo has been reverted
+echo - As part of this Change, "Coffee" and "Shooting" poses has been re-added
 echo:
 pause
 cls

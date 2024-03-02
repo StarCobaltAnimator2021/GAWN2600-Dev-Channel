@@ -3,6 +3,13 @@
 		{
 			"type": "char",
 			"subtype": 0,
+			"title": "Zeus Kayden Nathaniel",
+			"themeId": "family",
+			"id": "7af46bc8"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
 			"title": "RaffinaCounter",
 			"themeId": "family",
 			"id": "18e584b2"
