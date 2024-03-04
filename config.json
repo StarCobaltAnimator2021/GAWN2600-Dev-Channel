@@ -13,8 +13,5 @@
 	"SAVED_FOLDER": "./_SAVED",
 
 	"SERVER_PORT": 4343,
-	"WRAPPER_VER": "22504.1000.7.9.23.rs_prerelease.230910-2311",
-
-	"DISCORD_RPC": true,
-	"DISCORD_CLIENT": "866340172874383370"
+	"WRAPPER_VER": "Evaluation copy. Build 22581.zn_release.240302-1527"
 }
