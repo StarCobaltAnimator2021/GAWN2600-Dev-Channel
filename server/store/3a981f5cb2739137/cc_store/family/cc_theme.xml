@@ -13503,6 +13503,18 @@
             <selection type="skeleton" state_id="standweirdly"/>
             <selection type="upper_body" state_id="crossed_arms"/>
         </action>
+        <action id="sit_xarmsadam" name="Sit - Crossed arms - Adam mix" loop="Y" totalframe="1" enable="Y" category="poses" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="sit"/>
+            <selection type="skeleton" state_id="standweirdly"/>
+            <selection type="upper_body" state_id="crossed_arms"/>
+        </action>
+        <action id="kneel_xarmsadam" name="Kneel down - Crossed arms - Adam mix" loop="Y" totalframe="1" enable="Y" category="poses" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="kneel_down"/>
+            <selection type="skeleton" state_id="standweirdly"/>
+            <selection type="upper_body" state_id="crossed_arms"/>
+        </action>
         <action id="excited" name="Excited / Cheers" loop="Y" totalframe="50" enable="Y" category="emotion" is_motion="N">
             <selection type="facial" facial_id="head_happy"/>
             <selection type="lower_body" state_id="excited"/>

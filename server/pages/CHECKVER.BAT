@@ -3,7 +3,7 @@ title GoAniWayneNathaniel2600 Version Checker
 echo:
 echo GoAniWayneNathaniel2600 Version Checker
 echo Version 10.0
-echo Build 22579.1.zn_release.240301-1222
+echo Build 22581.1.zn_release.240302-1527
 echo Service Pack : 6
 echo Evaluation copy. Expires 9/15/2024
 echo:
@@ -26,16 +26,12 @@ pause
 cls
 echo:
 echo What's new in this version
-echo GAWN2600 Insider Preview 22579.1 (zn_release)
+echo GAWN2600 Insider Preview 22581.1 (zn_release)
 echo:
-echo 1. New Character: Zeus Kayden Nathaniel
+echo 1. New exclusive poses for female characters: Sit - Crossed Arms - Adam Mix
+echo and Kneel down - Crossed Arms - Adam Mix
 echo:
-echo 2. The Setting button at the Header, Introduced in build 22567.1
-echo Has been rolled out to subset of users
-echo:
-echo 3. Extra Assets: New Hairstyle, Mermaid Tail & Seashell bra, Added in build 22557.1
-echo has been reverted
-echo - As part of this Change, "Coffee" and "Shooting" poses has been re-added
+echo 2. Settings button at header, introduced in build 22567.1, has been rolled out to all users.
 echo:
 pause
 cls
