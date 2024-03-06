@@ -3,6 +3,13 @@
 		{
 			"type": "char",
 			"subtype": 0,
+			"title": "King David",
+			"themeId": "family",
+			"id": "76cb918a"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
 			"title": "Zeus Kayden Nathaniel",
 			"themeId": "family",
 			"id": "7af46bc8"
