@@ -3,7 +3,7 @@ title GoAniWayneNathaniel2600 Version Checker
 echo:
 echo GoAniWayneNathaniel2600 Version Checker
 echo Version 10.0
-echo Build 22593.1.zn_release.240304-1028
+echo Build 22598.1.zn_release.240307-1100
 echo Service Pack : 6
 echo Evaluation copy. Expires 9/15/2024
 echo:
@@ -26,14 +26,11 @@ pause
 cls
 echo:
 echo What's new in this version
-echo GAWN2600 Insider Preview 22593.1 (zn_release)
+echo GAWN2600 Insider Preview 22598.1 (zn_release)
 echo:
-echo 1. New Character: King David
+echo This build now determines version number after Servicing Pipelines update or Cumulative update was installed.
+echo for example: v22581.1, with KB5012439 will bump this version to v22581.100
 echo:
-echo 2. Extra Assets, which was added in build 22557.1, but reverted in build 22579.1, has been re-added
-echo - As part of this change, "Coffee" and "Shooting" poses are now removed again
-echo:
-echo 3. New Another Exclusive poses: Sit - Chuckle - Bend
 echo:
 pause
 cls
@@ -47,6 +44,12 @@ cls
 echo:
 echo Findings in this build.
 echo:
-echo There are currently no Findings in this build.
+echo KB5013320
+echo:
+echo This build has mysterious Update that was stored inside "Downloaded Assets" Folder, with only
+echo "wrapper" folder stored inside and "5013320.txt", Additionally, when copying "wrapper" folder
+echo and replace it with "footer.eta" stored inside, will update this build to 22598.100
+echo:
+echo Oddly, build 22598.100 are also mentioned in the "5013320.txt"
 echo:
 pause
