@@ -3,9 +3,8 @@ title GoAniWayneNathaniel2600 Version Checker
 echo:
 echo GoAniWayneNathaniel2600 Version Checker
 echo Version 10.0
-echo Build 22598.1.zn_release.240307-1100
+echo Build 22610.1.zn_release.240308-1525
 echo Service Pack : 6
-echo Evaluation copy. Expires 9/15/2024
 echo:
 echo To see the installed Service packs. Press any key
 echo:
@@ -26,11 +25,11 @@ pause
 cls
 echo:
 echo What's new in this version
-echo GAWN2600 Insider Preview 22598.1 (zn_release)
+echo GAWN2600 Insider Preview 22610.1 (zn_release)
 echo:
-echo This build now determines version number after Servicing Pipelines update or Cumulative update was installed.
-echo for example: v22581.1, with KB5012439 will bump this version to v22581.100
+echo 1. Moved the Settings button back down from header to footer.
 echo:
+echo 2. Start.bat received minor slight changes again.
 echo:
 pause
 cls
@@ -44,12 +43,6 @@ cls
 echo:
 echo Findings in this build.
 echo:
-echo KB5013320
-echo:
-echo This build has mysterious Update that was stored inside "Downloaded Assets" Folder, with only
-echo "wrapper" folder stored inside and "5013320.txt", Additionally, when copying "wrapper" folder
-echo and replace it with "footer.eta" stored inside, will update this build to 22598.100
-echo:
-echo Oddly, build 22598.100 are also mentioned in the "5013320.txt"
+echo There are currently no findings in this build.
 echo:
 pause
