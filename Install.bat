@@ -74,7 +74,7 @@ cls
 
 echo:
 echo GoAniWayneNathaniel2600 Preinstallation Environment
-echo build 10.0.22581.1 (zn_release)
+echo build 10.0.22610.1 (zn_release)
 echo:
 echo Choose Options below.
 echo:
