@@ -3,7 +3,7 @@ title GoAniWayneNathaniel2600 Version Checker
 echo:
 echo GoAniWayneNathaniel2600 Version Checker
 echo Version 10.0
-echo Build 22610.1.zn_release.240308-1525
+echo Build 22616.1.zn_release.240311-1605
 echo Service Pack : 6
 echo:
 echo To see the installed Service packs. Press any key
@@ -25,11 +25,12 @@ pause
 cls
 echo:
 echo What's new in this version
-echo GAWN2600 Insider Preview 22610.1 (zn_release)
+echo GAWN2600 Insider Preview 22616.1 (zn_release)
 echo:
-echo 1. Moved the Settings button back down from header to footer.
+echo 1. New Exclusive Poses: Point At - Turn Head - Legs Bent
 echo:
-echo 2. Start.bat received minor slight changes again.
+echo 2. The Creator of GAWN2600's character title when hovering on him in Character Browser
+echo has been changed to "Nathan Animations"
 echo:
 pause
 cls
