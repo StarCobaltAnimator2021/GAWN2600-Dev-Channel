@@ -13407,6 +13407,12 @@
             <selection type="skeleton" state_id="turnhead"/>
             <selection type="upper_body" state_id="point_at"/>
         </action>
+        <action id="ptat_turn_head_legs_bent" name="Point at - turn head - legs bent" loop="Y" totalframe="1" enable="Y" category="poses" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="laugh"/>
+            <selection type="skeleton" state_id="turnhead"/>
+            <selection type="upper_body" state_id="point_at"/>
+        </action>
         <action id="sit_turn_head" name="Sit - turn head" loop="Y" totalframe="1" enable="Y" category="poses" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="sit"/>
