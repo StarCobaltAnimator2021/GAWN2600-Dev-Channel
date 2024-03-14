@@ -1,7 +1,7 @@
 {
 	"TRUNCATED_THEMELIST": true,
 	"SHOW_WAVEFORMS": true,
-	"DEFAULT_WATERMARK": "twoLines",
+	"DEFAULT_WATERMARK": "g4s",
 	"IS_WIDE": "1",
 	"SAVE_LOG_FILES": false,
 	"HIDE_NAVBAR": true

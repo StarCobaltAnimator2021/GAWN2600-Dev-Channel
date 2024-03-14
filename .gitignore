@@ -1,9 +1,8 @@
-# General Wrapper: Offline Stuff
+# General Wrapper Offline Stuff
 _ASSETS/*
 _CACHÉ/*
 _LOGS/*
 _SAVED/*
-_EXPORTS/*
 _SAVED/database.json
 !_*/_NO_REMÖVE
 utilities/backups/*

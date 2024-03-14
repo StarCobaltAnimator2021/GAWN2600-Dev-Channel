@@ -11,8 +11,7 @@
 	"CACHÉ_FOLDER": "./_CACHÉ",
 	"LOG_FOLDER": "./_LOGS",
 	"SAVED_FOLDER": "./_SAVED",
-	"EXPORT_FOLDER": "./_EXPORTS",
 
 	"SERVER_PORT": 4343,
-	"WRAPPER_VER": "22523.1000.7.9.23.rs_prerelease.231025-1526"
+	"WRAPPER_VER": "Build 22621.zn_release.240314-1858"
 }
