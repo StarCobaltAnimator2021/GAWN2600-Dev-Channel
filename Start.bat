@@ -8,6 +8,6 @@ echo Closing this Window Will also close the Software but not the CMD window, Pl
 echo it properly by saving the videos first. Then Go back to the home page. and use "close node.bat" To close
 echo the CMD Window. Anyways Remember to smile always while Making Videos :) and Have Fun Making Videos...
 echo:
-echo Build 22616.zn_release.240311-1605
+echo Build 22621.zn_release.240314-1858
 echo:
 npm start
