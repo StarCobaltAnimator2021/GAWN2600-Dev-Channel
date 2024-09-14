@@ -1,11 +1,11 @@
 <footer>
 	<nav id="foot-left">
-		<a><%= "v2.1.0 (25905.1000)" %></a>
+		<a><%= "v2.1.0 (25915.1000)" %></a>
 		<a href="/settings">Settings</a>
 		<a href="https://www.youtube.com/@GoAniWayneNathaniel2600">Our YouTube Channel</a>
 		<a href="https://sites.google.com/view/goaniwaynenathaniel2600/home">GoAniWayneNathaniel2600 Website </a>
 	</nav>
 
 	<nav id="foot-right"></nav>
-		<a><%= "Evaluation copy. Build 25905.rs_prerelease.240722-1920" %></a>
+		<a><%= "Evaluation copy. Build 25915.rs_prerelease.240826-0958" %></a>
 </footer>
