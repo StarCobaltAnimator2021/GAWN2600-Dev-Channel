@@ -68,7 +68,7 @@ switch (process.platform) {
 		break;
 	}
 	default: {
-		throw new Error("You are running Wrapper: Offline on an unsupported platform.");
+		throw new Error("You are running GoAniNathanYellowStar9600 on an unsupported platform.");
 	}
 }
 app.commandLine.appendSwitch("ppapi-flash-path", path.join(__dirname, pluginName));
@@ -79,7 +79,7 @@ const createWindow = () => {
 	mainWindow = new BrowserWindow({
 		width: 1200,
 		height: 700,
-		title: "GoAniWayneNathaniel2600",
+		title: "GoAniNathanYellowStar9600",
 		icon: path.join(__dirname, "../server/favicon.ico"),
 		webPreferences: {
 			plugins: true,
