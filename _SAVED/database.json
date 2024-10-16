@@ -1,0 +1,48 @@
+{
+	"version": "2.1.1 (25931.1000)",
+	"assets": [
+		{
+			"type": "sound",
+			"subtype": "soundeffect",
+			"title": "RCC 4.mp3",
+			"duration": 1254,
+			"id": "7b1a2d50.mp3"
+		},
+		{
+			"type": "sound",
+			"subtype": "soundeffect",
+			"title": "RCC 3.mp3",
+			"duration": 1254,
+			"id": "70ff70c7.mp3"
+		},
+		{
+			"type": "sound",
+			"subtype": "soundeffect",
+			"title": "RCC 2.mp3",
+			"duration": 1254,
+			"id": "257dfd4c.mp3"
+		},
+		{
+			"type": "sound",
+			"subtype": "soundeffect",
+			"title": "RCC 1.mp3",
+			"duration": 0,
+			"id": "95329037.mp3"
+		},
+		{
+			"type": "sound",
+			"subtype": "soundeffect",
+			"title": "Declaration PS1.mp3",
+			"duration": 705,
+			"id": "d872236e.mp3"
+		},
+		{
+			"type": "sound",
+			"subtype": "bgmusic",
+			"title": "anw1408_01_the-optimist.mp3",
+			"duration": 225097,
+			"id": "ae72a501.mp3"
+		}
+	],
+	"movies": []
+}
