@@ -1,6 +1,6 @@
 @echo off
 echo:
 echo GAWN2600 Pro Insider Preview
-echo Evaluation copy. Build 25936.rs_prerelease.241019-1430
+echo Evaluation copy. Build 25941.rs_prerelease.241028-2053
 echo:
 npm start
