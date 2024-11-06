@@ -13,7 +13,7 @@ this css has the general header/footer layout stuff
 general
 **/
 html, body {
-	background: #85e21f;
+	background: #eee;
 	color: #505969;
 	font: 13px/1.5 "Segoe UI Variable";
 	width: 100%;
@@ -40,7 +40,7 @@ header
 **/
 header {
 	/* style */
-	background: linear-gradient(90deg, rgba(133,226,31,1) 0%, rgba(136,30,228,1) 100%);
+	background: linear-gradient(90deg, rgba(0,255,255,1) 0%, rgba(255,182,255,1) 100%);
 	color: #fff;
 	text-align: center;
 	/* layout */
@@ -68,7 +68,7 @@ html.dark header {
 /* buttons */
 .btn {
 	/* style */
-	background: #ff9a00;
+	background: none;
 	border: none;
 	font-size: 14px;
 	font-weight: bold;
@@ -81,7 +81,7 @@ html.dark header {
 	margin: 9px 5px;
 }
 .btn:hover {
-	background: #f75f1c;
+	background: #029a85;
 	cursor: pointer;
 }
 header .btn {
@@ -98,11 +98,11 @@ header .btn:hover {
 }
 /* primary color buttons */
 .btn.btn_primary {
-	background: #000000;
+	background: none;
 	width: 160px;
 }
 .btn.btn_primary:hover {
-	background: #000000;
+	background: #fff4;
 }
 
 
@@ -175,20 +175,20 @@ tabs
     margin: 0 auto;
 }
 .tab_nav_container .tab_navigation {
-	border-bottom: 10px solid #ff9a00;
+	border-bottom: 10px solid #fff;
 	box-shadow: 0 4px 3px -2px #0002;
 }
 html.dark .tab_nav_container .tab_navigation {
 	border-color: #282828;
 }
 .tab {
-	background: #85e21f;
-    border-right: 1px solid #85e21f;
+	background: #e3e7ed;
+    border-right: 1px solid #cfcfcf;
     box-shadow:
-		inset 0 1px #85e21f,
-		inset 0 -1px #85e21f,
-		inset 0 -6px 6px -5px #85e21f;
-    color: #000000;
+		inset 0 1px #cfcfcf,
+		inset 0 -1px #c1c1c1,
+		inset 0 -6px 6px -5px #0002;
+    color: #505e73;
     padding: 7px;
     text-align: center;
     text-decoration: none;
@@ -202,8 +202,8 @@ html.dark .tab_nav_container .tab_navigation {
 }
 .tab.selected {
     background: #fff;
-    color: #000000;
-    box-shadow: 0 -5px #f75f1c;
+    color: #0099ff;
+    box-shadow: 0 -5px #0099ff;
 }
 html.dark .tab:not(.selected) {
 	background: #242424;
@@ -217,7 +217,7 @@ html.dark .tab.selected {
 }
 .tab:hover,
 html.dark .tab:hover {
-	color: #000000;
+	color: #0099ff;
 }
 /* pages */
 .tab_page {
@@ -228,7 +228,7 @@ html.dark .tab:hover {
 footer
 **/
 footer {
-	background: linear-gradient(90deg, rgba(247,95,28,1) 0%, rgba(255,154,0,1) 100%);
+	background: linear-gradient(90deg, rgba(0,255,255,1) 0%, rgba(255,182,255,1) 100%);
 	margin-top: auto; /* footer at the foot */
 	display: flex;
 	justify-content: space-between;
@@ -237,7 +237,7 @@ footer {
 footer nav { margin:5px 10px}
 /* links */
 footer a {
-	color: #000000;
+	color: #ffffff;
 	text-decoration:none;
 	margin: 0 10px;
 	font-weight: bold;
