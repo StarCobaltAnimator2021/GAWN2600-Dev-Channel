@@ -7,5 +7,5 @@
 	</nav>
 
 	<nav id="foot-right"></nav>
-		<a><%= "Evaluation copy. Build 25941.rs_prerelease.241026-2053" %></a>
+		<a><%= "Evaluation copy. Build 25947.rs_prerelease.241101-0850" %></a>
 </footer>
