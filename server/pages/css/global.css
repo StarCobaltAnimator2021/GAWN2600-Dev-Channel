@@ -68,7 +68,7 @@ html.dark header {
 /* buttons */
 .btn {
 	/* style */
-	background: none;
+	background: linear-gradient(90deg, rgba(29,156,250,1) 0%, rgba(23,238,255,1) 100%);
 	border: none;
 	font-size: 14px;
 	font-weight: bold;
@@ -81,14 +81,14 @@ html.dark header {
 	margin: 9px 5px;
 }
 .btn:hover {
-	background: #029a85;
+	background: linear-gradient(90deg, rgba(29,156,250,1) 0%, rgba(23,238,255,1) 100%);
 	cursor: pointer;
 }
 header .btn {
-    background: #3330;
+    background: #3330
 }
 header .btn:hover {
-    background: #fff4;
+    background: #fff4
 }
 .dark .btn {
     background: #333;
@@ -98,11 +98,11 @@ header .btn:hover {
 }
 /* primary color buttons */
 .btn.btn_primary {
-	background: none;
+	background: linear-gradient(90deg, rgba(29,156,250,1) 0%, rgba(23,238,255,1) 100%);
 	width: 160px;
 }
 .btn.btn_primary:hover {
-	background: #fff4;
+	background: linear-gradient(90deg, rgba(29,156,250,1) 0%, rgba(23,238,255,1) 100%);
 }
 
 
@@ -182,11 +182,11 @@ html.dark .tab_nav_container .tab_navigation {
 	border-color: #282828;
 }
 .tab {
-	background: #e3e7ed;
-    border-right: 1px solid #cfcfcf;
+	background: #eee;
+    border-right: 1px solid #eee;
     box-shadow:
-		inset 0 1px #cfcfcf,
-		inset 0 -1px #c1c1c1,
+		inset 0 1px #eee,
+		inset 0 -1px #eee,
 		inset 0 -6px 6px -5px #0002;
     color: #505e73;
     padding: 7px;
@@ -202,8 +202,8 @@ html.dark .tab_nav_container .tab_navigation {
 }
 .tab.selected {
     background: #fff;
-    color: #0099ff;
-    box-shadow: 0 -5px #0099ff;
+    color: #00a5ff;
+    box-shadow: 0 -5px #00a5ff;
 }
 html.dark .tab:not(.selected) {
 	background: #242424;
