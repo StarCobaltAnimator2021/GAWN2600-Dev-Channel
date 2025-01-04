@@ -13,7 +13,7 @@ this css has the general header/footer layout stuff
 general
 **/
 html, body {
-	background: #55D7FF;
+	background: #eee;
 	color: #505969;
 	font: 13px/1.5 "Segoe UI Variable";
 	width: 100%;
@@ -40,7 +40,7 @@ header
 **/
 header {
 	/* style */
-	background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,0,255,1) 100%);
+	background: linear-gradient(90deg, rgba(0,255,255,1) 0%, rgba(255,182,255,1) 100%);
 	color: #fff;
 	text-align: center;
 	/* layout */
@@ -68,7 +68,7 @@ html.dark header {
 /* buttons */
 .btn {
 	/* style */
-	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,255,0,1) 100%);
+	background: linear-gradient(90deg, rgba(29,156,250,1) 0%, rgba(23,238,255,1) 100%);
 	border: none;
 	font-size: 14px;
 	font-weight: bold;
@@ -81,7 +81,7 @@ html.dark header {
 	margin: 9px 5px;
 }
 .btn:hover {
-	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,255,0,1) 100%);
+	background: linear-gradient(90deg, rgba(29,156,250,1) 0%, rgba(23,238,255,1) 100%);
 	cursor: pointer;
 }
 header .btn {
@@ -98,11 +98,11 @@ header .btn:hover {
 }
 /* primary color buttons */
 .btn.btn_primary {
-	background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(90deg, rgba(29,156,250,1) 0%, rgba(23,238,255,1) 100%);
 	width: 160px;
 }
 .btn.btn_primary:hover {
-	background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(90deg, rgba(29,156,250,1) 0%, rgba(23,238,255,1) 100%);
 }
 
 
@@ -175,20 +175,20 @@ tabs
     margin: 0 auto;
 }
 .tab_nav_container .tab_navigation {
-	border-bottom: 10px solid;
+	border-bottom: 10px solid #fff;
 	box-shadow: 0 4px 3px -2px #0002;
 }
 html.dark .tab_nav_container .tab_navigation {
 	border-color: #282828;
 }
 .tab {
-	background: none;
-    border-right: 1px solid;
+	background: #eee;
+    border-right: 1px solid #eee;
     box-shadow:
-		inset 0 1px #55D7FF,
-		inset 0 -1px #55D7FF,
-		inset 0 -6px 6px -5px #55D7FF;
-    color: #ffffff;
+		inset 0 1px #eee,
+		inset 0 -1px #eee,
+		inset 0 -6px 6px -5px #0002;
+    color: #505e73;
     padding: 7px;
     text-align: center;
     text-decoration: none;
@@ -202,8 +202,8 @@ html.dark .tab_nav_container .tab_navigation {
 }
 .tab.selected {
     background: #fff;
-    color: #00ff00;
-    box-shadow: 0 -5px #00ff00;
+    color: #00a5ff;
+    box-shadow: 0 -5px #00a5ff;
 }
 html.dark .tab:not(.selected) {
 	background: #242424;
@@ -217,7 +217,7 @@ html.dark .tab.selected {
 }
 .tab:hover,
 html.dark .tab:hover {
-	color: #00ff00;
+	color: #0099ff;
 }
 /* pages */
 .tab_page {
@@ -228,7 +228,7 @@ html.dark .tab:hover {
 footer
 **/
 footer {
-	background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,255,0,1) 100%);
+	background: linear-gradient(90deg, rgba(0,255,255,1) 0%, rgba(255,182,255,1) 100%);
 	margin-top: auto; /* footer at the foot */
 	display: flex;
 	justify-content: space-between;
