@@ -2,6 +2,34 @@
 	"version": "2.1.1 (25931.1000)",
 	"assets": [
 		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Nick Red Apollo.xml",
+			"themeId": "family",
+			"id": "8bea4257"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Nathan Kayden.xml",
+			"themeId": "family",
+			"id": "b017a628"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Logan Alejandro.xml",
+			"themeId": "family",
+			"id": "a2599983"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "David Dave.xml",
+			"themeId": "family",
+			"id": "f6cad9c4"
+		},
+		{
 			"type": "sound",
 			"subtype": "soundeffect",
 			"title": "RCC 4.mp3",
