@@ -4,28 +4,35 @@
 		{
 			"type": "char",
 			"subtype": 0,
-			"title": "Nick Red Apollo.xml",
+			"title": "Ethan Nate",
+			"themeId": "family",
+			"id": "154cb5f8"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Nick Red Apollo",
 			"themeId": "family",
 			"id": "8bea4257"
 		},
 		{
 			"type": "char",
 			"subtype": 0,
-			"title": "Nathan Kayden.xml",
+			"title": "Nathan Kayden",
 			"themeId": "family",
 			"id": "b017a628"
 		},
 		{
 			"type": "char",
 			"subtype": 0,
-			"title": "Logan Alejandro.xml",
+			"title": "Logan Alejandro",
 			"themeId": "family",
 			"id": "a2599983"
 		},
 		{
 			"type": "char",
 			"subtype": 0,
-			"title": "David Dave.xml",
+			"title": "David Dave",
 			"themeId": "family",
 			"id": "f6cad9c4"
 		},
