@@ -1,5 +1,5 @@
 :: License: MIT
-title GoAniNathanYellowStar9600 Preinstallation Environment (Initializing...)
+title GoAniWayneNathaaniel2600 Preinstallation Environment (Initializing...)
 
 ::::::::::::::::::::
 :: Initialization ::
@@ -19,7 +19,7 @@ pushd "%~dp0"
 
 :: Initiate
 echo:
-echo GoAniNathanYellowStar9600 Preinstallation Environment is running...
+echo GoAniWayneNathaaniel2600 Preinstallation Environment is running...
 echo:
 PING -n 3 127.0.0.1>nul
 cls
@@ -68,20 +68,20 @@ goto mainmenu
 :::::::::::::::::::::::
 
 :mainmenu
-title GoAniNathanYellowStar9600 Preinstallation Environment
+title GoAniWayneNathaniel2600 Preinstallation Environment
 :cls
 cls
 
 echo:
-echo GoAniNathanYellowStar9600 Preinstallation Environment
-echo build 10.0.26010.1000 (rs_prerelease)
+echo GoAniWayneNathaniel2600 Preinstallation Environment
+echo build 10.0.26016.1000 (rs_prerelease)
 echo:
 echo Choose Options below.
 echo:
 echo Enter 1 to Install node_modules
 echo Enter 2 to Audit npm package
 echo Enter 3 to Install node_modules and then Audit its package
-echo Enter 4 to Start GoAniNathanYellowStar9600
+echo Enter 4 to Start GoAniWayneNathaniel2600
 echo Enter 0 to close Preinstallation Environment
 echo:
 
@@ -140,78 +140,78 @@ goto audit
 :exit
 cls
 echo:
-echo Exiting GoAniNathanYellowStar9600 Preinstallation Environment...
+echo Exiting GoAniWayneNathaniel2600 Preinstallation Environment...
 PING -n 7 127.0.0.1>nul
 cls
 echo:
-echo Exiting GoAniNathanYellowStar9600 Preinstallation Environment... 0%
+echo Exiting GoAniWayneNathaniel2600 Preinstallation Environment... 0%
 PING -n 2 127.0.0.1>nul
 cls
 echo:
-echo Exiting GoAniNathanYellowStar9600 Preinstallation Environment... 20%
+echo Exiting GoAniWayneNathaniel2600 Preinstallation Environment... 20%
 PING -n 2 127.0.0.1>nul
 cls
 echo:
-echo Exiting GoAniNathanYellowStar9600 Preinstallation Environment... 44%
+echo Exiting GoAniWayneNathaniel2600 Preinstallation Environment... 44%
 PING -n 2 127.0.0.1>nul
 cls
 echo:
-echo Exiting GoAniNathanYellowStar9600 Preinstallation Environment... 63%
+echo Exiting GoAniWayneNathaniel2600 Preinstallation Environment... 63%
 PING -n 2 127.0.0.1>nul
 cls
 echo:
-echo Exiting GoAniNathanYellowStar9600 Preinstallation Environment... 81%
+echo Exiting GoAniWayneNathaniel2600 Preinstallation Environment... 81%
 PING -n 2 127.0.0.1>nul
 cls
 echo:
-echo Exiting GoAniNathanYellowStar9600 Preinstallation Environment... 95%
+echo Exiting GoAniWayneNathaniel2600 Preinstallation Environment... 95%
 PING -n 2 127.0.0.1>nul
 cls
 echo:
-echo Exiting GoAniNathanYellowStar9600 Preinstallation Environment... 100%
+echo Exiting GoAniWayneNathaniel2600 Preinstallation Environment... 100%
 PING -n 2 127.0.0.1>nul
 cls
 echo:
-echo GoAniNathanYellowStar9600 Preinstallation Environment has been closed.
+echo GoAniWayneNathaniel2600 Preinstallation Environment has been closed.
 PING -n 10 127.0.0.1>nul
 exit
 
 :exitandstartgawn2600
 cls
 echo:
-echo Exiting GoAniNathanYellowStar9600 Preinstallation Environment...
+echo Exiting GoAniWayneNathaniel2600 Preinstallation Environment...
 PING -n 7 127.0.0.1>nul
 cls
 echo:
-echo Exiting GoAniNathanYellowStar9600 Preinstallation Environment... 0%
+echo Exiting GoAniWayneNathaniel2600 Preinstallation Environment... 0%
 PING -n 2 127.0.0.1>nul
 cls
 echo:
-echo Exiting GoAniNathanYellowStar9600 Preinstallation Environment... 20%
+echo Exiting GoAniWayneNathaniel2600 Preinstallation Environment... 20%
 PING -n 2 127.0.0.1>nul
 cls
 echo:
-echo Exiting GoAniNathanYellowStar9600 Preinstallation Environment... 44%
+echo Exiting GoAniWayneNathaniel2600 Preinstallation Environment... 44%
 PING -n 2 127.0.0.1>nul
 cls
 echo:
-echo Exiting GoAniNathanYellowStar9600 Preinstallation Environment... 63%
+echo Exiting GoAniWayneNathaniel2600 Preinstallation Environment... 63%
 PING -n 2 127.0.0.1>nul
 cls
 echo:
-echo Exiting GoAniNathanYellowStar9600 Preinstallation Environment... 81%
+echo Exiting GoAniWayneNathaniel2600 Preinstallation Environment... 81%
 PING -n 2 127.0.0.1>nul
 cls
 echo:
-echo Exiting GoAniNathanYellowStar9600 Preinstallation Environment... 95%
+echo Exiting GoAniWayneNathaniel2600 Preinstallation Environment... 95%
 PING -n 2 127.0.0.1>nul
 cls
 echo:
-echo Exiting GoAniNathanYellowStar9600 Preinstallation Environment... 100%
+echo Exiting GoAniWayneNathaniel2600 Preinstallation Environment... 100%
 PING -n 2 127.0.0.1>nul
 cls
 echo:
-echo GoAniNathanYellowStar9600 Preinstallation Environment has been closed.
+echo GoAniWayneNathaniel2600 Preinstallation Environment has been closed.
 PING -n 10 127.0.0.1>nul
 cls
 start.bat
